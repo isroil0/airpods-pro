@@ -1,0 +1,363 @@
+ @import url(./fonts.css);
+ *{
+       margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+ }  
+
+ body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:  #151515;
+    ;
+   
+    
+    
+    }     
+ .header{
+  background: #282828;
+ }      
+.header__nav{
+    gap: 30px;
+    display: flex;   
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.container{
+    max-width: 1600px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+   
+   
+ }
+ .nav__menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-family:'Montserrat-Medium', sans-serif ;
+  }  
+ 
+  .menu__item a{
+   font-size: 16px;
+  font-weight: 500px;
+  line-height: 19px;
+  color: white;
+  }
+  .header__nav-devices{
+    display: flex;
+    gap: 30px;
+  }
+.header__nav-search{
+    display: flex;
+    gap: 25px;
+  }
+  .banner{
+    height: 800px;
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    
+    
+  }
+  .banner__wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 38px;
+   
+  }
+  .banner__title{
+font-family: 'ProstoOne-Regular', sans-serif;
+font-size: 100px;
+font-weight: 400px;
+line-height: 75px; 
+color: #FFFFFF;  
+ }
+ .banner__site{
+    background: #FFFFFF;
+    font-family: 'Montserrat-Medium', sans-serif;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 24px;
+    color: #171718;
+    padding:13px 14px ;
+    display: flex;
+    gap: 11px;
+ }
+ .explanation__ear{
+    display: flex;
+    gap: 30px;
+    margin-left: 247px;
+    margin-right: 233px;
+    justify-content: center;
+   
+ }
+ .explanation__ear-p{
+    height: 135px;
+     width: 538px;
+ font-family: 'Montserrat-Medium', sans-serif;
+font-size: 22px;
+font-weight: 500px-;
+line-height: 27px;
+color: #FFFFFF;
+margin-top: 130px;
+ }   
+ .explanation__ear-img{
+    margin-top: 30px;
+ }
+ .explanation__case-p{
+    color: #FFFFFF;
+    font-family: 'Montserrat-Medium', sans-serif;  
+   font-size: 22px;
+font-weight: 500px;
+line-height: 27px;
+height: 107px;
+width: 540px;
+padding-top:  151px;
+}
+.explanation__case{
+    display: flex;
+    gap: 87px;  
+        
+    padding-top: 50px;
+justify-content: center;
+ }  
+ .explanation__device-p1{
+font-family: 'Montserrat-Medium', sans-serif;  
+font-size: 20px;
+font-weight: 700px;
+line-height: 24px;
+color: #FFFFFF;
+height: 120px;
+width: 333px;
+padding-top: 145px;
+
+
+ }
+ .explanation__device-p2{
+    font-family: 'Montserrat-Medium', sans-serif;  
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 24px;
+    color: #FFFFFF;
+    height: 144px;
+    width: 333px;
+    padding-top: 133px;
+    
+
+
+     }  
+     .explanation__device{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        gap: 13px;
+        
+     }  
+     .explanation__device-img2{
+        padding-top: 35px;
+     }
+     .explanation__wrap{
+      flex-direction: column;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+     }
+     .market-store{
+      height: 312px;
+      width: 255px;
+border-radius: 6px;
+background: #FFFFFF;
+
+
+     }
+     .explanaton-market{
+      display: flex;
+      gap: 30px;
+         justify-content: center;
+         margin-top: 79px;
+     }
+.market-store-h{
+   font-family: 'Montserrat-Medium', sans-serif;  
+font-size: 20px;
+font-weight: 700px;
+ padding-top: 15px;
+
+justify-content: center;
+display: flex;
+}
+.market-store-img1{
+   padding-top: 10px;
+ padding-right:64.5px ;
+      padding-left:63px ; 
+     padding-bottom: 10px;
+  
+     
+      
+}  
+
+
+.market-store-p{
+   font-family: 'Montserrat-Medium', sans-serif;  
+font-size: 14px;
+ font-weight: 400px;
+ padding-left: 62px;
+ padding-right: 63px;
+ padding-bottom: 20px;
+ }
+ .market-store-btn{
+   height: 34px;
+width: 161px;
+background: #151515;
+color: #FFFFFF;
+font-family: 'Montserrat-Medium', sans-serif;  
+font-size: 16px;
+font-weight: 700px;
+margin-left: 47px;
+margin-right: 47px;
+
+
+
+ }
+ .market-store-img2{
+   padding-top: 10px;
+ padding-right:79px ;
+      padding-left:77px ; 
+     padding-bottom: 10px;
+  
+     
+      
+}  
+.market-store-img3{
+   padding-top: 10px;
+ padding-right:75.58px ;
+      padding-left:76px ; 
+     padding-bottom: 10px;
+  
+     
+      
+}  
+.market-store-img4{
+   padding-top: 10px;
+ padding-right:72.3px ;
+      padding-left:73px ; 
+     padding-bottom: 10px;
+  
+     
+      
+}  
+.footer__nav{
+   display: flex;
+   justify-content: center;
+   padding-top: 81px;
+      
+}
+.footer{
+  height: 215px;
+   margin: 0 auto;
+
+   background: #282828;
+}
+.footer__nav-div2{
+   padding-left: 339px;
+   padding-right: 270px;
+}
+.div-img{
+   padding-left: 29px;
+}
+.nav__menu{
+   display: flex;
+  padding-top: 15px;
+}
+.footer{
+   margin-top: 55px;
+}
+.menu__item:hover{
+   color: white;
+   background: green;
+   transition: 0.5s;
+   border-radius: 6px;
+   
+}
+.header__nav-search-btn:hover{
+   color: white;
+   background: green;
+   transition: 0.5s;
+   border-radius: 6px;
+   
+}
+.header__nav-search-store:hover{
+   color: white;
+   background: green;
+   transition: 0.5s;
+   border-radius: 6px;
+   
+}
+.banner__site:hover{
+   background: black;
+   transition: 0.5s;
+   color: #FFFFFF;
+}
+.market-store-btn:hover{
+   background: green;
+   color: #151515;
+   transition: 0.5s;
+}
+.market-store:hover{
+   background: #FFFFFF;
+   color: #151515;
+   transition: 0.5s;
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+ 
+
+ 
+
+
+    
+
+   
+
+
+ 
+
+   
+    
+
+
+
+
+
+ 
+  
+  
+  
+ 
+ 
+    
